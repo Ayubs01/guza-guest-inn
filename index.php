@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>Guza Guest-Inn</title>
+	<meta content="" name="description">
+	<meta content="" name="keywords">
+
+	<!-- Favicons -->
+	<link href="assets/img/favicon.png" rel="icon">
+	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+		rel="stylesheet">
+
+	<!-- Vendor CSS Files -->
+	<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+	<!-- Template Main CSS File -->
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- ======= Header ======= -->
+	<header id="header" class="fixed-top d-flex align-items-center">
+		<div class="container d-flex align-items-center justify-content-between">
+
+			<h1 class="logo"><a href="index.html">Guza Guest-Inn</a></h1>
+			<!-- Uncomment below if you prefer to use an image logo -->
+			<!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+			<nav id="navbar" class="navbar">
+				<ul>
+					<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+					<li><a class="nav-link scrollto" href="about.html">About</a></li>
+					<li><a class="nav-link scrollto" href="#services">Services</a></li>
+					<li><a class="nav-link scrollto " href="#room-categories">Room Categories</a></li>
+					<li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+					<li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+					<!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
+				</ul>
+				<i class="bi bi-list mobile-nav-toggle"></i>
+			</nav><!-- .navbar -->
+
+		</div>
+	</header><!-- End Header -->
+
+	<!-- ======= Hero Section ======= -->
+	<section id="hero">
+		<div class="hero-container">
+			<div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+				<ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+				<div class="carousel-inner" role="listbox">
+
+					<!-- Slide 1 -->
+					<div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
+						<div class="carousel-container">
+							<div class="carousel-content">
+								<h2 class="animate__animated animate__fadeInDown">Experience the comfort of home</h2>
+								<p class="animate__animated animate__fadeInUp">Welcome to our website! We’re committed to
+									delivering the exceptional service you deserve. Relax and enjoy our luxury.</p>
+								<div>
+									<a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+										More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 2 -->
+					<div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
+						<div class="carousel-container">
+							<div class="carousel-content">
+								<h2 class="animate__animated animate__fadeInDown">Warm Hospitality</h2>
+								<p class="animate__animated animate__fadeInUp">Hey there! We're thrilled to have you on our
+									website. Our goal is to give you an unforgettable experience with top-notch service. Take a
+									deep breath, relax, and enjoy the luxurious treats we have in store for you.</p>
+								<div>
+									<a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+										More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 3 -->
+					<div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+						<div class="carousel-container">
+							<div class="carousel-content">
+								<h2 class="animate__animated animate__fadeInDown">Your Home Away from Home</h2>
+								<p class="animate__animated animate__fadeInUp">Step into the world of luxury. We're delighted to
+									welcome you to our website, where exceptional service and unparalleled elegance await. Allow
+									us to pamper you with an unforgettable experience, tailored to your every desire.</p>
+								<div>
+									<a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+										More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+				</a>
+
+				<a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+					<span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+				</a>
+
+			</div>
+		</div>
+	</section><!-- End Hero -->
+
+	<main id="main">
+
+
+		<!-- ======= Services Section ======= -->
+		<section id="services" class="services">
+			<div class="container">
+
+				<div class="section-title">
+					<h2>Services</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-6 icon-box">
+						<div class="icon"><i class="bi bi-house-heart"></i></div>
+						<h4 class="title"><a href="#products">Clean and Comfortable Rooms</a></h4>
+						<p class="description">Relax in our meticulously maintained rooms, featuring plush beds with fresh
+							linens and a clean, welcoming atmosphere, ensuring a comfortable and peaceful stay.<br><br>
+						</p>
+						<button class="find-out-more">
+							<a href="#products" rel="noopener noreferrer" class="text-white">Find Out More</a>
+						</button>
+					</div>
+
+					<div class="col-lg-4 col-md-6 icon-box">
+						<div class="icon"><i class="bi bi-clock"></i></div>
+						<h4 class="title"><a href="#products">24-Hour Reception</a></h4>
+						<p class="description">Get help anytime with our 24-hour reception. Our friendly staff is always
+							available to assist with any questions or needs, ensuring a smooth and stress-free stay.<br><br>
+						</p>
+						<button class="find-out-more">
+							<a href="#products" rel="noopener noreferrer" class="text-white">Find Out More</a>
+						</button>
+					</div>
+
+					<div class="col-lg-4 col-md-6 icon-box">
+						<div class="icon"><i class="bi bi-car-front"></i></div>
+						<h4 class="title"><a href="#products">Parking Space</a></h4>
+						<p class="description">Enjoy hassle-free parking with our convenient on-site parking options, allowing
+							you to focus on relaxing and making the most of your stay.<br><br>
+						</p>
+						<button class="find-out-more">
+							<a href="#products" rel="noopener noreferrer" class="text-white">Find Out More</a>
+						</button>
+					</div>
+				</div>
+
+			</div>
+		</section><!-- End Services Section -->
+
+		<section id="products" class="products">
+			<div class="container">
+
+				<!-- <div class="section-title">
+					<h2>products</h2>
+					<p>Our product portfolio encompasses a comprehensive range of cutting-edge networking and
+						telecommunications solutions. We provide a
+						diverse selection of high-performance routers, switches, optical amplifiers, and base station
+						controllers designed to meet the evolving
+						demands of modern communication networks.
+
+						We are committed to delivering reliable and scalable solutions that empower businesses and service
+						providers to achieve seamless connectivity
+						and optimize network performance.</p>
+				</div> -->
+
+				<div class="row">
+					<div class="col-lg-12 d-flex justify-content-center">
+						<ul id="products-flters">
+							<li data-filter="*" class="filter-active">All</li>
+							<li data-filter=".filter-zte">Standards</li>
+							<li data-filter=".filter-nokia">Executive</li>
+							<li data-filter=".filter-ericsson">Premium</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row products-container">
+
+					<div class="col-lg-4 col-md-6 products-item filter-zte">
+						<div class="products-wrap">
+							<img src="assets/img/products/img-1.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+								<h4>Standards</h4>
+								<p>8k, no AC, fan only.</p>
+								<div class="products-links">
+									<a href="assets/img/products/img-1.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Standards"><i class="bx bx-plus"></i></a>
+									<a href="huawei1.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 products-item filter-nokia">
+						<div class="products-wrap">
+							<img src="assets/img/products/img-2.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+								<h4>Executive</h4>
+								<p>12k, has AC and fan, but no water heater.</p>
+								<div class="products-links">
+									<a href="assets/img/products/img-2.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Executive"><i class="bx bx-plus"></i></a>
+									<a href="3HE03685AAAA-Alcatel-Lucent.html" title="More Details"><i
+											class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 products-item filter-ericsson">
+						<div class="products-wrap">
+							<img src="assets/img/products/img-3.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+								<h4>Premium</h4>
+								<p>15k, with water heater, dressing mirror, wardrobe, AC, and fan.</p>
+								<div class="products-links">
+									<a href="assets/img/products/img-3.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Premium"><i class="bx bx-plus"></i></a>
+									<a href="OptiX OSN 1800 V.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="col-lg-4 col-md-6 products-item filter-zte">
+						<div class="products-wrap">
+							<img src="assets/img/products/pro1.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+								<h4>Huawei</h4>
+								<p>GPSF Huawei GPON</p>
+								<div class="products-links">
+									<a href="assets/img/products/pro1.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+									<a href="GPSF Huawei GPON.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 products-item filter-zte">
+						<div class="products-wrap">
+							<img src="assets/img/products/pro2.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+								<h4>ZTE</h4>
+								<p>ZXD800E</p>
+								<div class="products-links">
+									<a href="assets/img/products/pro2.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="ZTE 3"><i class="bx bx-plus"></i></a>
+									<a href="ZXD800E.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="col-lg-4 col-md-6 products-item filter-nokia">
+						<div class="products-wrap">
+							<img src="assets/img/products/pro3.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+								<h4>Nokia</h4>
+								<p>Nokia FOSN 472811A</p>
+								<div class="products-links">
+									<a href="assets/img/products/pro3.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Nokia 3"><i class="bx bx-plus"></i></a>
+									<a href="Nokia FOSN 472811A.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-lg-4 col-md-6 products-item filter-nokia">
+						<div class="products-wrap">
+							<img src="assets/img/products/pro4.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+								<h4>Nokia</h4>
+								<p>Nokia TA21572</p>
+								<div class="products-links">
+									<a href="assets/img/products/pro4.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Nokia 3"><i class="bx bx-plus"></i></a>
+									<a href="Nokia TA21572.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- <div class="col-lg-4 col-md-6 products-item filter-ericsson">
+						<div class="products-wrap">
+							<img src="assets/img/products/img-3.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+								<h4>Ericsson</h4>
+								<p>Ericsson ROA1283598</p>
+								<div class="products-links">
+									<a href="assets/img/products/img-3.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Nokia 3"><i class="bx bx-plus"></i></a>
+									<a href="Ericsson ROA1283598.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div> -->
+
+					<div class="col-lg-4 col-md-6 products-item filter-ericsson">
+						<div class="products-wrap">
+							<img src="assets/img/products/pro1.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+								<h4>Ericsson</h4>
+								<p>Ericsson ROJ11923151</p>
+								<div class="products-links">
+									<a href="assets/img/products/pro1.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Nokia 3"><i class="bx bx-plus"></i></a>
+									<a href="Ericsson ROJ11923151.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 products-item filter-ericsson">
+						<div class="products-wrap">
+							<img src="assets/img/products/pro2.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+								<h4>Ericsson </h4>
+								<p>Ericsson  1HAT60937ACW</p>
+								<div class="products-links">
+									<a href="assets/img/products/pro2.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Nokia 3"><i class="bx bx-plus"></i></a>
+									<a href="Ericsson  1HAT60937ACW.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+				</div>
+
+			</div>
+		</section><!-- End products Section -->
+
+		<section id="gallery" class="products">
+			<div class="container">
+
+				<div class="section-title">
+					<h2>Gallery</h2>
+				</div>
+
+				<div class="row products-container">
+
+					<div class="col-lg-4 col-md-6 products-item filter-huawa">
+						<div class="products-wrap">
+							<img src="assets/img/products/img-4.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+
+								<div class="products-links">
+									<a href="assets/img/products/img-4.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Standards"><i class="bx bx-plus"></i></a>
+									<a href="huawei1.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-lg-4 col-md-6 products-item filter-huawa">
+						<div class="products-wrap">
+							<img src="assets/img/products/img-5.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+
+								<div class="products-links">
+									<a href="assets/img/products/img-5.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Executive"><i class="bx bx-plus"></i></a>
+									<a href="OptiX OSN 1800 V.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 products-item filter-huawa">
+						<div class="products-wrap">
+							<img src="assets/img/products/img-6.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+
+								<div class="products-links">
+									<a href="assets/img/products/img-6.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Premium"><i class="bx bx-plus"></i></a>
+									<a href="3HE03685AAAA-Alcatel-Lucent.html" title="More Details"><i
+											class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 products-item filter-huawa">
+						<div class="products-wrap">
+							<img src="assets/img/products/img-7.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+
+								<div class="products-links">
+									<a href="assets/img/products/img-7.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Huawa 2"><i class="bx bx-plus"></i></a>
+									<a href="OptiX OSN 1800 V.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-lg-4 col-md-6 products-item filter-huawa">
+						<div class="products-wrap">
+							<img src="assets/img/products/img-8.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+
+								<div class="products-links">
+									<a href="assets/img/products/img-8.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Huawa 2"><i class="bx bx-plus"></i></a>
+									<a href="OptiX OSN 1800 V.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 products-item filter-huawa">
+						<div class="products-wrap">
+							<img src="assets/img/products/img-9.jpg" class="img-fluid" alt="">
+							<div class="products-info">
+
+								<div class="products-links">
+									<a href="assets/img/products/img-9.jpg" data-gallery="productsGallery"
+										class="products-lightbox" title="Huawa 2"><i class="bx bx-plus"></i></a>
+									<a href="OptiX OSN 1800 V.html" title="More Details"><i class="bx bx-link"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section><!-- End products Section -->
+
+		<!-- ======= Contact Section ======= -->
+		<section id="contact" class="contact">
+			<div class="container">
+
+				<div class="section-title">
+					<h2>Contact</h2>
+					<!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+				</div>
+
+				<div class="row contact-info">
+
+					<div class="col-md-4">
+						<div class="contact-address">
+							<i class="bi bi-geo-alt"></i>
+							<h3>Address</h3>
+							<address>34, Akinyele Street, Aguda, Surulere Lagos, Nigeria</address>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="contact-phone">
+							<i class="bi bi-phone"></i>
+							<h3>Phone Number</h3>
+							<p><a href="tel:+2348030437609">+2348030437609</a></p>
+							<p><a href="tel:+2347085626133">+2347085626133</a></p>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="contact-email">
+							<i class="bi bi-envelope"></i>
+							<h3>Email</h3>
+							<p><a href="mailto:info@desl.com.ng">info@desl.com.ng</a></p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="form">
+					<form action="" method="POST" role="form" class="php-email-form">
+						<h3>
+							<?= $msg; ?>
+						</h3>
+						<div class="row">
+							<div class="col-md-6 form-group">
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+									data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+							</div>
+							<div class="col-md-6 form-group mt-3 mt-md-0">
+								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+									data-rule="email" data-msg="Please enter a valid email">
+							</div>
+						</div>
+						<div class="form-group mt-3">
+							<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+						</div>
+						<div class="form-group mt-3">
+							<textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+						</div>
+						<div class="my-3">
+							<div class="loading">Loading</div>
+							<div class="error-message"></div>
+							<div class="sent-message">Your message has been sent. Thank you!</div>
+						</div>
+						<div class="text-center"><button type="submit">Send Message</button></div>
+					</form>
+				</div>
+
+			</div>
+		</section><!-- End Contact Section -->
+
+	</main><!-- End #main -->
+
+	<!-- ======= Footer ======= -->
+	<footer id="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-info">
+							<h3>Guza Guest-Inn</h3>
+							<p>
+								NO, 47, PIWOYI VILLAGE, ALONG AIRPORT ROAD, ABUJA<br>
+								FCT, NIGERIA<br><br>
+								<strong>Phone:</strong> +234 8081 027 844<br>
+								<strong>Phone:</strong> +234 8135 383 671<br>
+								<strong>Email:</strong> info@desl.com.ng<br>
+							</p>
+							<div class="social-links mt-3">
+								<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+								<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+								<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+								<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+								<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-md-4 footer-links">
+						<h4>Useful Links</h4>
+						<ul>
+							<li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#room-categories">Room Categories</a></li>
+							<!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+						</ul>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="copyright">
+				&copy; Copyright <strong><span>Guza Guest-Inn</span></strong>. All Rights Reserved
+			</div>
+			<div class="someDiv">
+			</div>
+		</div>
+	</footer><!-- End Footer -->
+
+	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+			class="bi bi-arrow-up-short"></i></a>
+
+	<!-- Vendor JS Files -->
+	<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Template Main JS File -->
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
